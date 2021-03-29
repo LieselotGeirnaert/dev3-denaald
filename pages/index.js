@@ -14,7 +14,7 @@ const Home = ({ articles }) => {
 
           <div className={styles.grid}>
             {articles.map((article) => (
-              <Link href={`/articles/${article.id}`} className={styles.card} key={article.id}>
+              <Link href="" className={styles.card} key={article.id}>
                 <a className={styles.card}>
                   <h3>{ article.title }</h3>
                   <p>{ article.description }</p>
